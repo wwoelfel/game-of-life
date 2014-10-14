@@ -19,7 +19,10 @@
         <thucydides.version>0.9.268</thucydides.version>
         <jelastic.context>gameoflife</jelastic.context>
         <jelastic.environment>wakaleo</jelastic.environment>
-    </properties>
+        <vari1>A</vari1>
+        <vari2>B</vari2>
+        <vari3>C</vari3>
+	</properties>
 
     <scm>
         <connection>scm:git:git@github.com:${github.account}/game-of-life.git</connection>
