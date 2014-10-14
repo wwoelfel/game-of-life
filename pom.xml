@@ -172,12 +172,15 @@
 					<executions>
 						<execution>
 							<id>print-log</id>
-							<phase>initialize</phase>
+							<phase>test</phase>
 							<goals>
 								<goal>run</goal>
 							</goals>
 							<configuration>
 								<target>
+									<echo message="*******************************************************************************************" />
+									<echo message="*******************************************************************************************" />
+									<echo message="*******************************************************************************************" />
 									<echo message="Your log messages: " />
 									<echo message="Your log message1 ${vari1}" />
 									<echo message="Your log message2 ${vari2}" />
